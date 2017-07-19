@@ -3,9 +3,9 @@
 import requests, threading, websocket, math
 from six.moves.urllib.parse import urlparse
 from struct import unpack_from
-from colors import EnumColor
-from matrix import Matrix
-from i18n import I18n
+from src.colors import EnumColor
+from src.matrix import Matrix
+from src.i18n import I18n
 
 
 class PixelCanvasIO(object):

@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 
 import time, random, sys
-from pixelcanvasio import PixelCanvasIO
-from calc_axis import CalcAxis
-from matrix import Matrix
-from colors import EnumColor
-from strategy import FactoryStrategy
-from i18n import I18n
+from src.pixelcanvasio import PixelCanvasIO
+from src.calc_axis import CalcAxis
+from src.matrix import Matrix
+from src.colors import EnumColor
+from src.strategy import FactoryStrategy
+from src.i18n import I18n
 
         
 class Bot(object):

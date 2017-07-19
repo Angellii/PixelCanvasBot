@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import math
-from i18n import I18n
+from src.i18n import I18n
 
 
 class EnumColor:
